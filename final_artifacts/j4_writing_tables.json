@@ -1,0 +1,28 @@
+{
+  "dependability": {
+    "time_to_safe_state_seconds": 120,
+    "rollback_restoration_within_1_interval_rate": 1.0,
+    "poisoning_admission_blocked_rate": 0.95,
+    "interference_regression_blocked_rate": 1.0
+  },
+  "deployability": {
+    "avg_overhead_ms": 0.32,
+    "p95_overhead_ms": 1.48,
+    "integration_points": [
+      "chat_classification",
+      "retrieval_sanitization",
+      "tool_validation"
+    ],
+    "required_privileges": [
+      "service_logging",
+      "canary_routing",
+      "rollback_redeploy"
+    ],
+    "operational_dependencies": [
+      "structured_logging_enabled",
+      "traffic_split_capable",
+      "rollback_mechanism",
+      "monitoring_infrastructure"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+
+Alignment Baseline Comparison
+
+Results on JailbreakBench harmful prompts:
+- No Defense: ASR = 0.890
+- Alignment (Constitutional Prompting): ASR = 0.870
+- AutoPatch-Lite: ASR = 0.170
+
+Interpretation:
+Alignment-only defenses (constitutional prompting) provide some protection but are limited by:
+1. Prompt engineering attacks that bypass system prompts
+2. Lack of runtime enforcement
+3. Model's inherent vulnerabilities
+
+AutoPatch-Lite provides stronger protection by:
+1. Test-driven patch generation that catches bypasses
+2. Runtime policy enforcement (blocking before LLM call)
+3. Continuous adaptation through RL refinement
+
+The results show that alignment helps but fails compared to test-driven patching, which provides
+runtime enforcement and adaptive defense mechanisms.

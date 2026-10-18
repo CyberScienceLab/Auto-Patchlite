@@ -1,0 +1,3 @@
+Benchmark,N,Unchanged (count),Unchanged (%),Changed-Correct (count),Changed-Correct (%),Changed-Wrong (count),Changed-Wrong (%),Refused/Blocked (count),Refused/Blocked (%),Correctness Rate
+VH1213141516_benign_data_v1,1027,0,0.0,6,0.6,0,0.0,1021,99.4,0.6
+guychuk_benign-malicious-prompt-classification,1999,0,0.0,148,7.4,3,0.2,1848,92.4,7.4

@@ -1,0 +1,74 @@
+{"timestamp": "2025-10-28T19:18:16.082222Z", "metrics": {"safety_pass_rate": 0.11399325346050948, "util_loss": 0.020472257764336397, "fp_rate": 0.020472257764336397, "latency": 0.1}}
+{"timestamp": "2025-10-28T19:19:17.032903Z", "metrics": {"safety_pass_rate": 0.11573804815633361, "util_loss": 0.016401070140746772, "fp_rate": 0.016401070140746772, "latency": 0.1}}
+{"timestamp": "2025-10-28T19:20:26.030958Z", "metrics": {"safety_pass_rate": 0.12481098057461905, "util_loss": 0.020472257764336397, "fp_rate": 0.020472257764336397, "latency": 0.1}}
+{"timestamp": "2025-10-28T19:21:32.906970Z", "metrics": {"safety_pass_rate": 0.11317901593579155, "util_loss": 0.0176805862510178, "fp_rate": 0.0176805862510178, "latency": 0.1}}
+{"timestamp": "2025-10-28T19:22:17.178540Z", "metrics": {"safety_pass_rate": 0.10713039432360126, "util_loss": 0.014772595091310922, "fp_rate": 0.014772595091310922, "latency": 0.1}}
+{"timestamp": "2025-10-28T19:22:57.557098Z", "metrics": {"safety_pass_rate": 0.10980574619053159, "util_loss": 0.015121554030475748, "fp_rate": 0.015121554030475748, "latency": 0.1}}
+{"timestamp": "2025-10-28T19:23:41.077722Z", "metrics": {"safety_pass_rate": 0.10980574619053159, "util_loss": 0.015121554030475748, "fp_rate": 0.015121554030475748, "latency": 0.1}}
+{"timestamp": "2025-10-28T19:24:24.688109Z", "metrics": {"safety_pass_rate": 0.10980574619053159, "util_loss": 0.015121554030475748, "fp_rate": 0.015121554030475748, "latency": 0.1}}
+{"timestamp": "2025-10-28T19:25:08.227268Z", "metrics": {"safety_pass_rate": 0.10980574619053159, "util_loss": 0.015121554030475748, "fp_rate": 0.015121554030475748, "latency": 0.1}}
+{"timestamp": "2025-10-28T19:25:53.336824Z", "metrics": {"safety_pass_rate": 0.1585436780272188, "util_loss": 0.028614633011515647, "fp_rate": 0.028614633011515647, "latency": 0.1}}
+{"timestamp": "2025-10-28T19:26:37.195585Z", "metrics": {"safety_pass_rate": 0.10852623008026055, "util_loss": 0.015470512969640571, "fp_rate": 0.015470512969640571, "latency": 0.1}}
+{"timestamp": "2025-10-28T19:27:21.128376Z", "metrics": {"safety_pass_rate": 0.1571478422705595, "util_loss": 0.02780039548679772, "fp_rate": 0.02780039548679772, "latency": 0.1}}
+{"timestamp": "2025-10-28T19:28:04.819601Z", "metrics": {"safety_pass_rate": 0.18425031987902757, "util_loss": 0.04071187623589624, "fp_rate": 0.04071187623589624, "latency": 0.1}}
+{"timestamp": "2025-10-28T19:28:49.202854Z", "metrics": {"safety_pass_rate": 0.18425031987902757, "util_loss": 0.04071187623589624, "fp_rate": 0.04071187623589624, "latency": 0.1}}
+{"timestamp": "2025-10-28T19:29:31.951213Z", "metrics": {"safety_pass_rate": 0.10654879609165988, "util_loss": 0.014772595091310922, "fp_rate": 0.014772595091310922, "latency": 0.1}}
+{"timestamp": "2025-10-29T15:08:39.089023Z", "metrics": {"safety_pass_rate": 0.10654879609165988, "util_loss": 0.014772595091310922, "fp_rate": 0.014772595091310922, "latency": 0.1, "defense_mode": "none"}}
+{"timestamp": "2025-10-29T15:10:10.399277Z", "metrics": {"safety_pass_rate": 0.10654879609165988, "util_loss": 0.014772595091310922, "fp_rate": 0.014772595091310922, "latency": 0.1, "defense_mode": "autopatch_lite", "ablation": "semantic"}}
+{"timestamp": "2025-10-29T15:10:53.150699Z", "metrics": {"safety_pass_rate": 0.10654879609165988, "util_loss": 0.014772595091310922, "fp_rate": 0.014772595091310922, "latency": 0.1, "defense_mode": "autopatch_lite", "ablation": "regex"}}
+{"timestamp": "2025-10-29T15:11:36.214222Z", "metrics": {"safety_pass_rate": 0.10654879609165988, "util_loss": 0.014772595091310922, "fp_rate": 0.014772595091310922, "latency": 0.1, "defense_mode": "autopatch_lite", "ablation": "substring"}}
+{"timestamp": "2025-10-29T15:16:09.530780Z", "metrics": {"safety_pass_rate": 0.11399325346050948, "util_loss": 0.020472257764336397, "fp_rate": 0.020472257764336397, "latency": 0.1}}
+{"timestamp": "2025-10-29T15:17:11.593155Z", "metrics": {"safety_pass_rate": 0.11573804815633361, "util_loss": 0.016401070140746772, "fp_rate": 0.016401070140746772, "latency": 0.1}}
+{"timestamp": "2025-10-29T15:18:21.472779Z", "metrics": {"safety_pass_rate": 0.12481098057461905, "util_loss": 0.020472257764336397, "fp_rate": 0.020472257764336397, "latency": 0.1}}
+{"timestamp": "2025-10-29T15:19:28.339264Z", "metrics": {"safety_pass_rate": 0.11317901593579155, "util_loss": 0.0176805862510178, "fp_rate": 0.0176805862510178, "latency": 0.1}}
+{"timestamp": "2025-10-29T15:20:12.970202Z", "metrics": {"safety_pass_rate": 0.10713039432360126, "util_loss": 0.014772595091310922, "fp_rate": 0.014772595091310922, "latency": 0.1}}
+{"timestamp": "2025-10-29T15:20:56.672393Z", "metrics": {"safety_pass_rate": 0.10980574619053159, "util_loss": 0.015121554030475748, "fp_rate": 0.015121554030475748, "latency": 0.1}}
+{"timestamp": "2025-10-29T15:21:37.763844Z", "metrics": {"safety_pass_rate": 0.10980574619053159, "util_loss": 0.015121554030475748, "fp_rate": 0.015121554030475748, "latency": 0.1}}
+{"timestamp": "2025-10-29T15:22:18.935569Z", "metrics": {"safety_pass_rate": 0.10980574619053159, "util_loss": 0.015121554030475748, "fp_rate": 0.015121554030475748, "latency": 0.1}}
+{"timestamp": "2025-10-29T15:23:00.470309Z", "metrics": {"safety_pass_rate": 0.10980574619053159, "util_loss": 0.015121554030475748, "fp_rate": 0.015121554030475748, "latency": 0.1}}
+{"timestamp": "2025-10-29T15:23:27.238849Z", "metrics": {"safety_pass_rate": 0.1585436780272188, "util_loss": 0.028614633011515647, "fp_rate": 0.028614633011515647, "latency": 0.1}}
+{"timestamp": "2025-10-29T15:24:00.032795Z", "metrics": {"safety_pass_rate": 0.10852623008026055, "util_loss": 0.015470512969640571, "fp_rate": 0.015470512969640571, "latency": 0.1}}
+{"timestamp": "2025-10-29T15:24:44.149081Z", "metrics": {"safety_pass_rate": 0.1571478422705595, "util_loss": 0.02780039548679772, "fp_rate": 0.02780039548679772, "latency": 0.1}}
+{"timestamp": "2025-10-29T15:24:59.324389Z", "metrics": {"safety_pass_rate": 0.18425031987902757, "util_loss": 0.04071187623589624, "fp_rate": 0.04071187623589624, "latency": 0.1}}
+{"timestamp": "2025-10-29T15:25:16.000392Z", "metrics": {"safety_pass_rate": 0.18425031987902757, "util_loss": 0.04071187623589624, "fp_rate": 0.04071187623589624, "latency": 0.1}}
+{"timestamp": "2025-10-29T15:25:58.959233Z", "metrics": {"safety_pass_rate": 0.10654879609165988, "util_loss": 0.014772595091310922, "fp_rate": 0.014772595091310922, "latency": 0.1}}
+{"timestamp": "2025-10-29T15:50:58.030980Z", "metrics": {"safety_pass_rate": 0.03291845992788182, "util_loss": 0.007560777015237874, "fp_rate": 0.007560777015237874, "latency": 0.1, "defense_mode": "autopatch_lite", "ablation": "substring"}}
+{"timestamp": "2025-10-29T15:51:02.870640Z", "metrics": {"safety_pass_rate": 0.20984064208444805, "util_loss": 0.0730487379318367, "fp_rate": 0.0730487379318367, "latency": 0.1, "defense_mode": "autopatch_lite", "ablation": "regex"}}
+{"timestamp": "2025-10-29T16:18:49.150746Z", "metrics": {"safety_pass_rate": 0.0015121554030475748, "util_loss": 0.00023263929277654997, "fp_rate": 0.00023263929277654997, "latency": 0.1, "defense_mode": "autopatch_lite", "ablation": "semantic"}}
+{"timestamp": "2025-10-29T16:20:05.313721Z", "metrics": {"safety_pass_rate": 0.10654879609165988, "util_loss": 0.014772595091310922, "fp_rate": 0.014772595091310922, "latency": 0.1, "defense_mode": "none"}}
+{"timestamp": "2025-10-29T17:36:47.466060Z", "metrics": {"safety_pass_rate": 0.11399325346050948, "util_loss": 0.020472257764336397, "fp_rate": 0.020472257764336397, "latency": 0.1}}
+{"timestamp": "2025-10-29T17:38:43.064039Z", "metrics": {"safety_pass_rate": 0.11573804815633361, "util_loss": 0.016401070140746772, "fp_rate": 0.016401070140746772, "latency": 0.1}}
+{"timestamp": "2025-10-29T17:40:48.933385Z", "metrics": {"safety_pass_rate": 0.12481098057461905, "util_loss": 0.020472257764336397, "fp_rate": 0.020472257764336397, "latency": 0.1}}
+{"timestamp": "2025-10-29T17:42:42.255164Z", "metrics": {"safety_pass_rate": 0.11317901593579155, "util_loss": 0.0176805862510178, "fp_rate": 0.0176805862510178, "latency": 0.1}}
+{"timestamp": "2025-10-29T17:44:07.937092Z", "metrics": {"safety_pass_rate": 0.10713039432360126, "util_loss": 0.014772595091310922, "fp_rate": 0.014772595091310922, "latency": 0.1}}
+{"timestamp": "2025-10-29T17:45:31.619003Z", "metrics": {"safety_pass_rate": 0.10980574619053159, "util_loss": 0.015121554030475748, "fp_rate": 0.015121554030475748, "latency": 0.1}}
+{"timestamp": "2025-10-29T17:46:54.914611Z", "metrics": {"safety_pass_rate": 0.10980574619053159, "util_loss": 0.015121554030475748, "fp_rate": 0.015121554030475748, "latency": 0.1}}
+{"timestamp": "2025-10-29T17:48:20.259876Z", "metrics": {"safety_pass_rate": 0.10980574619053159, "util_loss": 0.015121554030475748, "fp_rate": 0.015121554030475748, "latency": 0.1}}
+{"timestamp": "2025-10-29T17:49:41.048111Z", "metrics": {"safety_pass_rate": 0.10980574619053159, "util_loss": 0.015121554030475748, "fp_rate": 0.015121554030475748, "latency": 0.1}}
+{"timestamp": "2025-10-29T17:50:28.674309Z", "metrics": {"safety_pass_rate": 0.1585436780272188, "util_loss": 0.028614633011515647, "fp_rate": 0.028614633011515647, "latency": 0.1}}
+{"timestamp": "2025-10-29T17:51:54.167060Z", "metrics": {"safety_pass_rate": 0.10852623008026055, "util_loss": 0.015470512969640571, "fp_rate": 0.015470512969640571, "latency": 0.1}}
+{"timestamp": "2025-10-29T17:53:20.424782Z", "metrics": {"safety_pass_rate": 0.1571478422705595, "util_loss": 0.02780039548679772, "fp_rate": 0.02780039548679772, "latency": 0.1}}
+{"timestamp": "2025-10-29T17:54:43.764613Z", "metrics": {"safety_pass_rate": 0.18425031987902757, "util_loss": 0.04071187623589624, "fp_rate": 0.04071187623589624, "latency": 0.1}}
+{"timestamp": "2025-10-29T17:56:09.218876Z", "metrics": {"safety_pass_rate": 0.18425031987902757, "util_loss": 0.04071187623589624, "fp_rate": 0.04071187623589624, "latency": 0.1}}
+{"timestamp": "2025-10-29T17:57:30.301853Z", "metrics": {"safety_pass_rate": 0.10654879609165988, "util_loss": 0.014772595091310922, "fp_rate": 0.014772595091310922, "latency": 0.1, "defense_mode": "top_5_per_type"}}
+{"timestamp": "2025-11-01T17:39:12.948870Z", "metrics": {"safety_pass_rate": 0.10654879609165988, "util_loss": 0.014772595091310922, "fp_rate": 0.014772595091310922, "latency": 0.1, "defense_mode": "none"}}
+{"timestamp": "2025-11-02T06:49:55.531377Z", "metrics": {"ASR": 0.176, "latency": 8.278692, "N": 1000}}
+{"timestamp": "2025-11-02T09:10:12.112065Z", "metrics": {"ASR": 0.179, "latency": 8.396661, "N": 1000}}
+{"timestamp": "2025-11-02T11:17:09.809526Z", "metrics": {"ASR": 0.182, "latency": 7.598604999999999, "N": 1000}}
+{"timestamp": "2025-11-02T13:33:59.090369Z", "metrics": {"ASR": 0.181, "latency": 8.189267, "N": 1000}}
+{"timestamp": "2025-11-02T15:13:45.658225Z", "metrics": {"ASR": 0.197, "latency": 5.968927, "N": 1000}}
+{"timestamp": "2025-11-02T15:58:23.928448Z", "metrics": {"ASR": 0.188, "latency": 2.661407, "N": 1000}}
+{"timestamp": "2025-11-02T16:43:10.745735Z", "metrics": {"ASR": 0.189, "latency": 2.669691, "N": 1000}}
+{"timestamp": "2025-11-02T17:28:04.756975Z", "metrics": {"ASR": 0.191, "latency": 2.677028, "N": 1000}}
+{"timestamp": "2025-11-02T18:13:04.161877Z", "metrics": {"ASR": 0.193, "latency": 2.6818739999999996, "N": 1000}}
+{"timestamp": "2025-11-02T18:40:51.037348Z", "metrics": {"ASR": 0.127, "latency": 1.653586, "N": 1000}}
+{"timestamp": "2025-11-02T19:26:03.646128Z", "metrics": {"ASR": 0.195, "latency": 2.6952130000000003, "N": 1000}}
+{"timestamp": "2025-11-02T19:53:49.492750Z", "metrics": {"ASR": 0.126, "latency": 1.652617, "N": 1000}}
+{"timestamp": "2025-11-02T20:09:44.843454Z", "metrics": {"ASR": 0.073, "latency": 0.9447329999999999, "N": 1000}}
+{"timestamp": "2025-11-02T20:25:29.532496Z", "metrics": {"ASR": 0.061, "latency": 0.936507, "N": 1000}}
+{"timestamp": "2025-11-02T21:52:47.946565Z", "metrics": {"ASR": 0.182, "latency": 2.393266, "N": 1000}}
+{"timestamp": "2025-11-02T22:37:45.909488Z", "metrics": {"ASR": 0.185, "latency": 2.678413, "N": 1000}}
+{"timestamp": "2025-11-02T23:15:51.171408Z", "metrics": {"ASR": 0.177, "latency": 2.2668719999999998, "N": 1000}}
+{"timestamp": "2025-11-02T23:58:03.712796Z", "metrics": {"ASR": 0.18, "latency": 2.5133769999999998, "N": 1000}}
+{"timestamp": "2025-11-03T00:43:53.774396Z", "metrics": {"ASR": 0.189, "latency": 2.732483, "N": 1000}}
+{"timestamp": "2025-11-03T01:28:46.848988Z", "metrics": {"ASR": 0.175, "latency": 2.676076, "N": 1000}}

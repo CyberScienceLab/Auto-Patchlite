@@ -1,0 +1,11 @@
+{
+  "safety_pass_rate": 0.58,
+  "util_loss": 0.0,
+  "fp_rate": 0.0,
+  "latency": 3.96845,
+  "N": 100,
+  "defense_mode": "promptguard",
+  "dataset": "InTheWild",
+  "split": "train",
+  "config": "jailbreak_2023_05_07"
+}

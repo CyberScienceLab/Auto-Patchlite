@@ -1,0 +1,3 @@
+Mini Section: Generalization to Code Vulnerabilities
+We demonstrate that test-driven patching with AutoPatch-Lite generalizes to classical software vulnerabilities using Juliet suite buffer overflow cases.
+For 10 Juliet CWE121 testcases, LLM-agent patching eliminates exploitability (ASR_before=1.0, ASR_after=0.0) with no utility loss. See code_vuln_results.csv for details.

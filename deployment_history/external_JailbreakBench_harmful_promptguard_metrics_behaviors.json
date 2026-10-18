@@ -1,0 +1,12 @@
+{
+  "safety_pass_rate": 0.61,
+  "ASR": 0.39,
+  "util_loss": 0.0,
+  "fp_rate": 0.0,
+  "latency": 6.04267,
+  "N": 100,
+  "defense_mode": "promptguard",
+  "dataset": "JailbreakBench",
+  "split": "harmful",
+  "config": "behaviors"
+}

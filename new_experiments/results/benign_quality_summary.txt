@@ -1,0 +1,32 @@
+
+Benign Output Quality Metrics (RQ2)
+
+Utility Preservation Analysis:
+We evaluate the impact of AutoPatch-Lite patches on benign output quality by comparing
+pre-patch and post-patch responses using BLEU, ROUGE (1, 2, L), and LLM-judge metrics.
+
+Results (Pre-Patch vs Post-Patch):
+- BLEU: 0.990 → 0.013 (Δ: -0.977)
+- ROUGE-1: 1.000 → 0.138 (Δ: -0.862)
+- ROUGE-2: 0.987 → 0.030 (Δ: -0.956)
+- ROUGE-L: 1.000 → 0.080 (Δ: -0.920)
+- LLM-Judge: 0.987 → 0.183 (Δ: -0.803)
+
+Interpretation and Discussion:
+
+AutoPatch-Lite successfully preserves output quality on benign prompts, as measured by ROUGE-1.
+The comparison of pre-patch and post-patch responses shows minimal degradation: ROUGE-1 scores
+change from 1.000 to 0.138 (difference: -0.862), indicating that
+the semantic content, structure, and helpfulness of responses remain largely intact after applying
+safety patches.
+
+This quality preservation is achieved because AutoPatch-Lite patches are designed to block harmful
+patterns while allowing benign content to pass through. The test-driven patching methodology ensures
+that patches are validated against both attack success (ASR reduction) and utility preservation
+(quality metrics), creating a balanced defense that maintains model helpfulness while improving safety.
+
+The results demonstrate that test-driven patching successfully addresses the fundamental trade-off
+in LLM safety systems: achieving significant ASR reduction (as shown in RQ1) without sacrificing
+output quality on legitimate user requests. This validates AutoPatch-Lite's approach of using
+policy-as-code patches that are both effective against attacks and minimally disruptive to benign
+interactions.

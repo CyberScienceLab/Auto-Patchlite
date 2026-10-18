@@ -1,0 +1,9 @@
+{
+  "dataset": "CodeVuln",
+  "patch_id": "e61ba3b3",
+  "patch_type": "semantic",
+  "asr_before": 0.99,
+  "asr_after": 1.0,
+  "ttm_before": 1.652350950241089,
+  "ttm_after": 1.7439541149139404
+}

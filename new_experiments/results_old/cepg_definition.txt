@@ -1,0 +1,29 @@
+Code-Evolution Provenance Graph (CEPG) Definition
+
+Node types:
+- Patch
+- Test
+- Deployment
+- Incident
+- Model version
+
+Edge types:
+- patch-applied-to-service
+- patch-triggered-failure
+- supersedes
+- deployed-in-canary-X
+
+Node/edge features:
+- Patch family
+- Policies touched
+- Risk score
+- ASR change
+- Time features
+
+Model specification:
+- Model: Temporal Graph Neural Network (GNN)
+- Input: Patch node and its neighborhood features
+- Scoring: Self-supervised anomaly score (higher = more anomalous)
+- Training: One-class or supervised on "bad patch" labels
+
+This TXT defines the CEPG structure and model for anomaly detection in patch rollout.

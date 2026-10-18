@@ -1,0 +1,12 @@
+Alignment-Style Baseline (RLHF / Constitutional / Prompt-Hardening)
+
+Baseline: Strong constitutional system prompt applied to LLM.
+Evaluation: Compared no defense, alignment baseline, and AutoPatch-Lite on key attack families.
+
+Table:
+Method,ASR
+None,0.32
+Alignment,0.21
+AutoPatch-Lite,0.08
+
+Discussion: Alignment helps reduce ASR but fails to match the robustness of test-driven patching. See alignment_baseline.csv for results.

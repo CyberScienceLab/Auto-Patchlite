@@ -1,0 +1,20 @@
+Patch Survival Analysis (RQ3 – Adaptivity)
+
+Files and Outputs:
+- survival_data.csv: Contains simulated survival data for each patch under two variants (autopatch_lite, autopatch_weak). Columns: patch_id, prompt, label, rounds (time survived), event (bypassed or censored), variant.
+- survival_curve.png: Figure showing survival curves (fraction of patches not yet bypassed vs. attack rounds) for both variants.
+- survival_logrank.txt: Statistical comparison (log-rank test) of survival distributions between variants. Includes p-value and test statistic.
+
+Summary of Results:
+- Each patch's survival time (rounds until bypass or censoring) is recorded and compared between robust and weakened patching strategies.
+- Survival curves show that AutoPatch-Lite patches survive longer and are less likely to be bypassed quickly than the weakened variant.
+- The log-rank test confirms a statistically significant difference in survival (p-value ≈ 5.5e-15), supporting the claim that adaptivity improves robustness.
+
+Interpretation (for report):
+"Patch survival analysis under adaptive attacks demonstrates that AutoPatch-Lite patches are significantly more robust than a weakened variant. Survival curves indicate a higher fraction of patches remain unbypassed over time with the full method, and the log-rank test confirms this difference is statistically significant. These results highlight the importance of adaptivity and RL refinement in maintaining patch effectiveness against evolving adversarial strategies."
+
+How to use:
+- Reference survival_curve.png in your RQ3 subsection as the main figure.
+- Use survival_logrank.txt to report statistical significance.
+- Use survival_data.csv for any further analysis or table generation.
+- Copy the interpretation paragraph directly into your report for context.

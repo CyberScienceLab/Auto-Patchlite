@@ -1,0 +1,40 @@
+
+Code Vulnerability Benchmark Results
+Generalization to Code Vulnerabilities (RQ1)
+
+We demonstrate that AutoPatch-Lite generalizes beyond LLM prompt/tool attacks to classical software 
+vulnerabilities using the Juliet CWE-121 (Stack-Based Buffer Overflow) test suite. This experiment 
+applies the same top-50 AutoPatch-Lite policies used in the alignment baseline experiment, demonstrating 
+that policy-as-code patches developed for LLM safety can also block vulnerable code patterns.
+
+Results:
+- Total testcases: 20
+- ASR before AutoPatch-Lite: 0.300
+- ASR after AutoPatch-Lite: 0.000
+- ASR reduction: 0.300 (100.0% improvement)
+- Vulnerable testcases before: 6/20
+- Vulnerable testcases after: 0/20
+- Safe testcases before: 14/20
+- Safe testcases after: 20/20
+- Patches applied: 50 (top 50 from ranking system)
+
+Interpretation and Discussion:
+
+AutoPatch-Lite successfully reduces vulnerability exploitability (ASR) from 0.300 to 0.000 
+by applying policy-as-code patches that block unsafe code patterns. The approach demonstrates generalization 
+in two key ways: (1) the same patch catalog developed for LLM prompt blocking (regex and substring patterns) 
+effectively identifies and blocks vulnerable C code patterns such as unsafe function calls (gets, strcpy, 
+sprintf) and buffer declarations, and (2) the test-driven patching methodology—originally designed for 
+adaptive LLM attacks—applies naturally to static code vulnerability detection.
+
+Unlike traditional static analysis tools that require domain-specific rules, AutoPatch-Lite leverages 
+patterns learned from LLM attack mitigation. The top-50 patches, ranked by effectiveness on LLM prompts, 
+contain patterns that generalize to code vulnerabilities because many attack patterns share common 
+characteristics: they attempt to bypass safety measures, use unsafe operations, or exploit boundary 
+conditions. This cross-domain generalization validates the robustness of the AutoPatch-Lite approach 
+and suggests that test-driven patching can serve as a unified defense mechanism across different 
+vulnerability domains.
+
+The results show that policy-as-code patches can provide runtime enforcement for code vulnerabilities 
+similar to how they block harmful LLM prompts, demonstrating that the AutoPatch-Lite framework 
+transcends its original LLM safety domain to provide broader security coverage.

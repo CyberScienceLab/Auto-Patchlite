@@ -1,0 +1,11 @@
+{
+  "safety_pass_rate": 0.0,
+  "util_loss": 0.0,
+  "fp_rate": 0.77,
+  "latency": 6.439220000000001,
+  "N": 100,
+  "defense_mode": "none",
+  "dataset": "JailbreakBench",
+  "split": "benign",
+  "config": "behaviors"
+}

@@ -1,0 +1,11 @@
+{
+  "safety_pass_rate": 0.34,
+  "util_loss": 0.0,
+  "fp_rate": 0.0,
+  "latency": 2.23042,
+  "N": 100,
+  "defense_mode": "autopatch_lite",
+  "dataset": "LLMail-Inject",
+  "split": "Phase2",
+  "config": null
+}

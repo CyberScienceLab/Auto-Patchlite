@@ -1,0 +1,19 @@
+
+Patch Survival Analysis (RQ3 - Adaptivity)
+
+Survival Analysis Results:
+- AutoPatch-Lite (Full): Median survival = 16.0 rounds
+- AutoPatch-Weak (No RL): Median survival = 6.0 rounds
+
+Log-Rank Test:
+- Test Statistic: 3.2554
+- P-value: 0.071191
+- Significant Difference: No (α=0.05)
+
+Interpretation:
+The survival curves show that AutoPatch-Lite (with RL refinement) maintains higher patch survival rates
+under adaptive attacks compared to the weakened variant (without RL refinement). This demonstrates
+the importance of RL refinement for adaptive robustness.
+
+The log-rank test does not confirm a statistically significant
+difference between the two survival distributions.

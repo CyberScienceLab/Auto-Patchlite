@@ -1,0 +1,3 @@
+Variant,BLEU,ROUGE-1,ROUGE-2,ROUGE-L,LLM-Judge
+Before Patching,0.990,1.000,0.987,1.000,0.987
+After Patching,0.013,0.138,0.030,0.080,0.183

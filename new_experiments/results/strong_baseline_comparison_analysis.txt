@@ -1,0 +1,11 @@
+
+Comparison Analysis:
+
+AutoPatch-Lite vs Strong Manual Baseline:
+- ASR improvement: 0.003 (Better)
+- Correctness difference: -54.0% (Worse)
+- Refusal difference: 54.0% (Worse)
+- Latency overhead: 0.22ms
+
+Verdict: Trade-off or worse
+        

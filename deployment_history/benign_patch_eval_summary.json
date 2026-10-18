@@ -1,0 +1,26 @@
+[
+  {
+    "dataset": "JailbreakBench",
+    "total": 100,
+    "autopatch_allowed": 100,
+    "autopatch_blocked": 0,
+    "promptguard_allowed": 100,
+    "promptguard_blocked": 0
+  },
+  {
+    "dataset": "VH1213141516/benign_data_v1",
+    "total": 2000,
+    "autopatch_allowed": 387,
+    "autopatch_blocked": 1613,
+    "promptguard_allowed": 405,
+    "promptguard_blocked": 1595
+  },
+  {
+    "dataset": "guychuk/benign-malicious-prompt-classification",
+    "total": 2000,
+    "autopatch_allowed": 152,
+    "autopatch_blocked": 1848,
+    "promptguard_allowed": 33,
+    "promptguard_blocked": 1967
+  }
+]

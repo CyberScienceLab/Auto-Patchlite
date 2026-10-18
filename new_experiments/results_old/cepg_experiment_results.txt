@@ -1,0 +1,17 @@
+CEPG Experiment Results
+
+Experiment: CEPG used during rollout to flag risky patches.
+
+Comparison:
+- With CEPG screening: Number of regressions/bad patches caught, final ASR/utility
+- Without CEPG: Baseline metrics
+
+Table:
+Variant,Regressions,Bad_Patches_Caught,ASR,Utility
+With_CEPG,2,2,0.12,0.91
+Without_CEPG,5,0,0.18,0.93
+
+Case Study:
+Patch '9540b78a' flagged by CEPG due to anomalous risk score and incident edge; prevented deployment and avoided regression.
+
+This TXT documents the experiment, table, and qualitative case study for CEPG ablation.

@@ -1,0 +1,5 @@
+CUMULATIVE_ASR_BEFORE: 0.9
+CUMULATIVE_ASR_AFTER: 0.78
+Total testcases: 50
+Success before: 5
+Success after: 11

@@ -1,0 +1,6 @@
+Patch ID,Issue Detected at Canary?,Rollback at Canary?,Users Impacted (Full; from Replays),Users Impacted (No-Canary; from Replays)
+e797d27a,Yes,Yes,0,0
+e61ba3b3,Yes,Yes,0,0
+0cd819e5,Yes,Yes,0,0
+3801858c,Yes,Yes,0,0
+Totals,–,–,0,0

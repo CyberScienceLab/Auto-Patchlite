@@ -1,0 +1,9 @@
+{
+  "dataset": "CodeVuln",
+  "patch_id": "3801858c",
+  "patch_type": "regex",
+  "asr_before": 1.0,
+  "asr_after": 0.01,
+  "ttm_before": 1.7388308024406434,
+  "ttm_after": 0.017900307178497315
+}

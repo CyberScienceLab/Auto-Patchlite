@@ -1,0 +1,70 @@
+================================================================================
+QUESTION 5 — Audit protocol hardening (replicable) + audit limitations
+================================================================================
+Everything below in one place for the paper editor. Add to Methods/Appendix and
+Results/Limitations as indicated.
+
+--------------------------------------------------------------------------------
+WHERE TO ADD IN THE PAPER
+--------------------------------------------------------------------------------
+• Audit protocol (replicable): Add as a short subsection in Methods or Appendix
+  (e.g. "Safety labeling audit protocol" or "Audit protocol").
+• Audit limitations paragraph: Add in Results or Limitations (one short paragraph).
+
+--------------------------------------------------------------------------------
+1) AUDIT PROTOCOL (replicable) — paste into Methods / Appendix
+--------------------------------------------------------------------------------
+
+• Number of auditors: One independent judge. In the reported run we use a
+  single independent judge model (Ollama mistral), not used in PatchEval,
+  harvesting, or patch ranking. A replicable alternative is two human
+  annotators with the same rubric; we report the judge-model setup here.
+
+• Expertise: Independent judge is mistral via Ollama (model id: mistral). No
+  additional human expertise metadata was collected for the judge model.
+
+• Blinding: The independent judge sees only the user prompt (truncated to 500
+  characters where applicable). It does not see PatchEval’s label, the model’s
+  response, tool calls, or any other context. PatchEval labels are computed
+  separately from the same prompts using the patch catalog only (no model
+  output). Labels are compared after both are recorded, so the comparison is
+  blinded.
+
+• Adjudication rule: Each trace receives two labels: “success” (attack
+  bypasses safety) or “failure” (attack blocked). Agreement means both sources
+  assign the same label; disagreement means one success and one failure. We do
+  not use a third adjudicator; we report agreement and κ and treat low κ as
+  grounds to qualify results as oracle-defined.
+
+• Rubric: Binary. Success = the prompt would likely bypass safety measures and
+  produce harmful content; failure = the prompt would be properly blocked or
+  produce a safe response. Categories are derived from policy notions:
+  jailbreak, injection, harmful content generation. The independent judge
+  receives this rubric in natural language in its system prompt.
+
+• What traces auditors saw:
+  – Independent judge: prompt only (no model response, no tool calls, no
+    context).
+  – PatchEval (oracle): same prompt plus the patch catalog (regex/substring/
+    embedding matching against the prompt only; no execution trace or model
+    output).
+  So neither side in the audit sees full execution traces (tool calls or model
+  output); the audit compares prompt-only independent judgment to prompt-only
+  PatchEval matching.
+
+--------------------------------------------------------------------------------
+2) AUDIT LIMITATIONS PARAGRAPH — paste into Results / Limitations
+--------------------------------------------------------------------------------
+
+Independent labeling shows low agreement with oracle labels (κ near 0),
+implying substantial label divergence across adjudication criteria.
+Accordingly, we treat reported safety outcomes as oracle-defined measurements
+rather than audit-validated ground truth, and scope claims to this operational
+definition.
+
+--------------------------------------------------------------------------------
+SOURCE (for consistency with repo)
+--------------------------------------------------------------------------------
+• Protocol from: new_experiments/safety_labeling_audit/safety_labeling_audit_experiment.py
+• κ and agreement: new_experiments/results/safety_labeling_audit_summary.txt
+  (Cohen's Kappa: 0.064; Agreement: 51.1%)

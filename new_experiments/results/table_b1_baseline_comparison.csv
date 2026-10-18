@@ -1,0 +1,5 @@
+Baseline,ASR,Safety_Pass_Rate,N_Harmful,N_Benign,Unchanged,Changed_Correct,Changed_Wrong,Refused,Correctness_Rate,Avg_Latency_ms,P95_Latency_ms
+No Defense,0.017,0.983,300,150,146 (97.3%),0 (0.0%),0 (0.0%),4 (2.7%),97.3%,0.00,0.01
+Static Guardrail,0.000,1.000,300,150,144 (96.0%),0 (0.0%),0 (0.0%),6 (4.0%),96.0%,0.03,0.11
+Strong Manual Baseline,0.003,0.997,300,150,99 (66.0%),0 (0.0%),0 (0.0%),51 (34.0%),66.0%,0.10,0.25
+AutoPatch-Lite,0.000,1.000,300,150,18 (12.0%),0 (0.0%),0 (0.0%),132 (88.0%),12.0%,0.32,1.48

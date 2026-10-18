@@ -1,0 +1,5 @@
+Variant,ASR,Benign_Success,Regressions,Rollbacks,Bad_Patches_Shipped,Deployed_Count
+Immediate Deployment,N/A,N/A,30,30,30,0
+Canary Deployment,N/A,N/A,30,30,0,0
+Risk Scorer (Multi-Objective),N/A,N/A,0,0,0,0
+Risk Scorer (Safety Only),N/A,N/A,0,0,0,0

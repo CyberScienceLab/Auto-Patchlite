@@ -1,0 +1,5 @@
+Patch ID,Patch Type,Survival Count,Bypassed
+e797d27a,semantic,1,Yes
+3801858c,regex,31,Yes
+0cd819e5,substring,3,Yes
+e61ba3b3,semantic,1,Yes

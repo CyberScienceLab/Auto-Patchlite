@@ -1,0 +1,43 @@
+# Garak report kept out of version control in the original project
+phi3_allprompts.report.jsonl
+
+# Python bytecode and tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+Julienenv/
+
+# Python packaging build output
+build/
+dist/
+*.egg-info/
+
+# Editors and operating systems
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local secrets and credentials
+.env
+.env.*
+*.pem
+id_rsa*
+.huggingface/
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+
+# Hugging Face datasets map/filter cache files (data-*.arrow, dataset_info.json and state.json stay tracked)
+COMPLETE_DATAMOD/cache-*.arrow

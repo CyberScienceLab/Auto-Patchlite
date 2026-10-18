@@ -1,0 +1,7 @@
+{
+  "ASR": 0.261,
+  "latency": 12.587290000000001,
+  "N": 1000,
+  "defense_mode": "autopatch_lite",
+  "ablation": "substring"
+}

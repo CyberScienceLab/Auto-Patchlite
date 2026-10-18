@@ -1,0 +1,3 @@
+Richer Ablations: Rollout / Canary & Risk Scorer
+
+This ablation compares immediate deployment (no canary), full canary pipeline, and risk scorer simplification. Metrics include ASR, benign success, regressions, and bad patches shipped. Results show that canary and multi-objective risk scoring reduce regressions and bad patches, while immediate deployment increases risk. See rollout_ablation.csv and rollout_ablation_summary.txt for full results and explanation.

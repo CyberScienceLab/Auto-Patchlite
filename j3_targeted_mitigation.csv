@@ -1,0 +1,3 @@
+Baseline,ASR,Safety_Pass_Rate,N_Harmful,N_Benign,Unchanged,Changed_Correct,Changed_Wrong,Refused,Benign_Pass_Rate,Avg_Overhead_ms,P95_Overhead_ms,harmful_total,harmful_violations,harmful_blocked,harmful_other,benign_total,benign_passed,benign_blocked,patch_applied,patch_applied_rate,benign_patch_applied,benign_patch_apply_rate,applied_violation_changed,applied_violation_changed_rate,Mitigation_Type,Placement
+Tool-argument constraint/repair,0.000,1.000,49,17,,,,1 (5.9%),94.1%,0.00,0.02,49,0,49,0,17,16,1,49,1.000,17,1.000,49,1.000,Tool-argument constraint,Pre-tool-invocation
+RAG context sanitization,0.397,0.603,68,36,,,,12 (33.3%),66.7%,0.02,0.04,68,27,41,0,36,24,12,61,0.897,33,0.917,38,0.623,RAG sanitization,Post-retrieval

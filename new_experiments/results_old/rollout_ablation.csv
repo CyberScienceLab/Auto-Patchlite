@@ -1,0 +1,4 @@
+patch_id,ASR,benign_success,regressions,rollout,risk_scorer,note
+Immediate Deployment,0.181,0.0,0,,,Ablation: Immediate Deployment
+Canary Deployment,0.181,0.0,4,,,Ablation: Canary Deployment
+Risk Scorer (Safety Only),0.181,,4,,,Ablation: Risk Scorer (Safety Only)

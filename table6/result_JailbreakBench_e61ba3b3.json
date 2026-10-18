@@ -1,0 +1,9 @@
+{
+  "dataset": "JailbreakBench",
+  "patch_id": "e61ba3b3",
+  "patch_type": "semantic",
+  "asr_before": 0.47,
+  "asr_after": 0.48,
+  "ttm_before": 2.4244759607315065,
+  "ttm_after": 2.4494937372207644
+}

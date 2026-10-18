@@ -1,0 +1,5 @@
+Scenario,N,Retention%
+Overall,1000,100.0
+regex,1000,100.0
+substring,1000,100.0
+semantic,1000,100.0

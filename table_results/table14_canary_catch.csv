@@ -1,0 +1,15 @@
+Patch ID,Issue Detected at Canary?,Rollback at Canary?,Users Impacted (Full; from Replays),Users Impacted (No-Canary; from Replays)
+e797d27a,Yes,Yes,0,U_e797d27a
+e61ba3b3,Yes,Yes,0,U_e61ba3b3
+97bd884b,Yes,Yes,0,U_97bd884b
+baa0c399,Yes,Yes,0,U_baa0c399
+0cd819e5,Yes,Yes,0,U_0cd819e5
+a579cc6f,Yes,Yes,0,U_a579cc6f
+9540b78a,Yes,Yes,0,U_9540b78a
+94b23c18,Yes,Yes,0,U_94b23c18
+26371e9c,Yes,Yes,0,U_26371e9c
+3801858c,Yes,Yes,0,U_3801858c
+21352399,Yes,Yes,0,U_21352399
+868c4095,Yes,Yes,0,U_868c4095
+5b6ee44e,Yes,Yes,0,U_5b6ee44e
+9660b833,Yes,Yes,0,U_9660b833

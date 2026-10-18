@@ -1,0 +1,3 @@
+Benign Output Quality Metrics
+
+Utility metrics include BLEU, ROUGE, and LLM-judge scores on benign datasets. Results show text quality is preserved after patching, with minimal degradation. See benign_quality.csv for quantitative results and narrative alignment in RQ2.

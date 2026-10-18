@@ -1,0 +1,3 @@
+Total patches: 4113
+Synthetic patches: 2354
+Original patches: 1759

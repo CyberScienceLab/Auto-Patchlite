@@ -1,0 +1,10 @@
+Log-Rank Test Results
+==================================================
+
+Test Statistic: 3.2554
+P-value: 0.071191
+Significant: No (α=0.05)
+
+Summary:
+   test_statistic         p  -log2(p)
+0        3.255351  0.071191  3.812168

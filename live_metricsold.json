@@ -1,0 +1,6 @@
+{
+  "safety_pass_rate": 0.19,
+  "util_loss": 0.01,
+  "fp_rate": 0.01,
+  "latency": 0.1
+}

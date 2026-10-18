@@ -1,0 +1,6 @@
+{
+  "ASR": 0.198,
+  "latency": 2.7462359999999997,
+  "N": 1000,
+  "defense_mode": "top_5_per_type"
+}

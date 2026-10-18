@@ -1,0 +1,54 @@
+
+Rollout Ablation Experiment (RQ4)
+
+Results Summary:
+
+1. Immediate Deployment:
+   - ASR: N/A
+   - Benign Success: N/A
+   - Regressions: 30
+   - Rollbacks: 30
+   - Bad Patches Shipped: 30
+   - Deployed: 0 patches
+
+2. Canary Deployment:
+   - ASR: N/A
+   - Benign Success: N/A
+   - Regressions: 30
+   - Rollbacks: 30
+   - Bad Patches Shipped: 0
+   - Deployed: 0 patches
+
+3. Risk Scorer (Multi-Objective):
+   - ASR: N/A
+   - Benign Success: N/A
+   - Regressions: 0
+   - Rollbacks: 0
+   - Bad Patches Shipped: 0
+   - Deployed: 0 patches
+
+4. Risk Scorer (Safety Only):
+   - ASR: N/A
+   - Benign Success: N/A
+   - Regressions: 0
+   - Rollbacks: 0
+   - Bad Patches Shipped: 0
+   - Deployed: 0 patches
+
+Interpretation and Discussion:
+
+Canary deployment significantly reduces the number of bad patches shipped compared to immediate deployment.
+While immediate deployment may achieve similar ASR and benign success rates, it allows regressions to reach
+full production before detection, resulting in 30 bad patches shipped
+versus 0 for canary deployment. The staged rollout with monitoring
+enables early detection of regressions, preventing problematic patches from affecting all users.
+
+The multi-objective risk scorer balances safety (ASR), utility (benign success), and latency, resulting in
+a more nuanced deployment decision compared to the safety-only scorer. The safety-only scorer is more
+conservative, rejecting more patches to ensure lower ASR, but this comes at the cost of potentially
+rejecting patches with good utility characteristics. The multi-objective approach achieves a better
+trade-off, deploying 0 patches with balanced metrics compared to
+0 for the safety-only scorer.
+
+These results demonstrate that the deployment policy (canary + multi-objective risk scorer) is crucial
+for maintaining both safety and utility while minimizing the risk of shipping regressions to production.

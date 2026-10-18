@@ -1,0 +1,27 @@
+model_type: "ollama"
+model_name: "phi3"
+
+model_options:
+  num_predict: 128
+
+logging:
+  hits: true
+  hits_file: "./phi3_malicious.hits.csv"
+
+plugins:
+  probes:
+    - "dan.DanInTheWild"
+    - "dan.AutoDANCached"
+    - "xss.MarkdownImageExfil"
+    - "xss.MdExfil20230929"
+    - "malwaregen.TopLevel"
+    - "malwaregen.Payload"
+    - "encoding.InjectBase64"
+    - "exploitation.SQLInjectionEcho"
+    - "promptinject.HijackKillHumans"
+    - "lmrc.Bullying"
+    - "lmrc.SlurUsage"
+    - "goodside.WhoIsRiley"
+
+  detectors:
+    - "all"

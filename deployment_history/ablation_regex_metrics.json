@@ -1,0 +1,7 @@
+{
+  "ASR": 0.0,
+  "latency": 0.0,
+  "N": 1000,
+  "defense_mode": "autopatch_lite",
+  "ablation": "regex"
+}

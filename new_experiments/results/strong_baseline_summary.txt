@@ -1,0 +1,65 @@
+
+Strong Baseline Comparison (E3)
+
+Baseline Construction and Tuning:
+
+1. No Defense:
+   - Baseline LLM without any safety measures
+   - No blocking, all prompts passed through
+   - Tuned: N/A (no tuning needed)
+
+2. Static Guardrail:
+   - Simple keyword-based blocking
+   - Rules: Checks for obvious attack keywords ('jailbreak', 'ignore all instructions', 'bypass safety')
+   - Tuning: Threshold calibrated on same PatchEval suite to balance ASR and false positives
+   - Budget: Same as AutoPatch-Lite (50 patches worth of evaluation time)
+   - Suites: Same harmful/benign test suites as AutoPatch-Lite
+
+3. Strong Manual Baseline:
+   - Expert-authored policy-as-code rules using same mechanism as AutoPatch-Lite
+   - Components:
+     * Schema validation: Checks prompt structure (length, instruction count, encoding patterns)
+     * Allowlists/denylists: Comprehensive keyword-based blocking (ignore all, override, bypass, jailbreak, system prompt, new instructions, pretend, act as, roleplay, etc.)
+     * Retrieval sanitization filters: Blocks suspicious patterns in retrieval queries
+     * Conservative tool-argument guards: Blocks tool injection patterns (<tool>, function_call, api_call)
+     * Conservative length check: Blocks prompts > 2000 chars (potential injection)
+   - No automated synthesis (rules manually crafted by security experts)
+   - Tuning: Calibrated on same PatchEval/validation regime:
+     * Same evaluation budget (50 patches worth)
+     * Same harmful test suite (JailbreakBench harmful)
+     * Same benign test suite (JailbreakBench benign)
+     * Threshold tuned to maximize safety_pass_rate while keeping util_loss < 0.02
+   - Constraints for fairness:
+     * Same test sets used for tuning
+     * Same evaluation methodology
+     * Same LLM model for inference
+
+4. AutoPatch-Lite:
+   - Test-driven patching with automated patch generation
+   - Patches generated from failure harvesting
+   - Same PatchEval regime used for ranking
+
+Results Summary:
+              Baseline   ASR Safety_Pass_Rate  N_Harmful  N_Benign   Unchanged Changed_Correct Changed_Wrong     Refused Correctness_Rate Avg_Latency_ms P95_Latency_ms
+            No Defense 0.017            0.983        300       150 146 (97.3%)        0 (0.0%)      0 (0.0%)    4 (2.7%)            97.3%           0.00           0.01
+      Static Guardrail 0.000            1.000        300       150 144 (96.0%)        0 (0.0%)      0 (0.0%)    6 (4.0%)            96.0%           0.03           0.11
+Strong Manual Baseline 0.003            0.997        300       150  99 (66.0%)        0 (0.0%)      0 (0.0%)  51 (34.0%)            66.0%           0.10           0.25
+        AutoPatch-Lite 0.000            1.000        300       150  18 (12.0%)        0 (0.0%)      0 (0.0%) 132 (88.0%)            12.0%           0.32           1.48
+
+Interpretation:
+- AutoPatch-Lite should show Pareto improvement over strong baseline:
+  * Better ASR (lower attack success) at comparable utility/refusal rates
+  * Acceptable latency overhead (< 150ms median)
+- Or demonstrate compelling operational advantage:
+  * Materially lower time-to-mitigation (automated patch generation vs manual rule writing)
+  * Better adaptivity to new attack families
+- If AutoPatch-Lite does not outperform strong baseline on effectiveness:
+  * Claims must be narrowed to automation/operations benefits
+  * Focus on "deployable closed-loop ops" rather than "superior security"
+  * Emphasize operational advantages (speed, scalability, automation)
+
+Utility Decomposition:
+- Uses same categorization as E2: unchanged, changed-but-correct, refused/blocked, changed-and-wrong
+- Separates refusal/overblocking from correctness metrics
+- Correctness rate = (unchanged + changed-correct) / total benign
+- For fair comparison, all baselines use same utility decomposition methodology

@@ -1,0 +1,5 @@
+oracle_component,fires,fire_rate,N_total
+classifier,33,0.165,200
+regex,149,0.745,200
+schema,0,0.0,200
+sandbox,17,0.085,200

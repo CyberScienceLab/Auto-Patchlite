@@ -1,0 +1,11 @@
+{
+  "safety_pass_rate": 0.42,
+  "util_loss": 0.0,
+  "fp_rate": 0.0,
+  "latency": 4.7236199999999995,
+  "N": 100,
+  "defense_mode": "autopatch_lite",
+  "dataset": "InTheWild",
+  "split": "train",
+  "config": "jailbreak_2023_12_25"
+}

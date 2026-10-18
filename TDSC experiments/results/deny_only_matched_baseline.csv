@@ -1,0 +1,2 @@
+baseline,refusal_rate,ASRpolicy,benign_correctness,N_harm,N_benign,match_target_refusal_rate_from,target_refusal_rate
+deny-only (matched refusal),0.22,0.41,0.19,100,100,AutoPatch-Lite,0.305

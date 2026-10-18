@@ -1,0 +1,5 @@
+Family,N,Precision (Failure),Recall (Failure),Precision (Success),Recall (Success),F1 (Failure),F1 (Success),Agreement,Kappa
+jailbreak,200,0.194,0.971,0.967,0.175,0.324,0.296,0.310,0.056
+cyberllminstruct,200,0.815,1.000,0.000,0.000,0.898,0.000,0.815,0.000
+injection,200,0.755,1.000,0.000,0.000,0.860,0.000,0.755,0.000
+inthewild,200,0.165,1.000,0.000,0.000,0.283,0.000,0.165,0.000

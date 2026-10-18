@@ -1,0 +1,6 @@
+Ablation,ASR,Coverage,Num Patches
+Baseline (No Defense),0.4,0.0
+No RL Refinement,0.4,0.0
+No Pattern Mining,0.43,0.0
+No PatchEval,0.1,0.8
+Full AutoPatch-Lite,0.09,0.8

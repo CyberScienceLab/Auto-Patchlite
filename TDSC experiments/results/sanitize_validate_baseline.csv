@@ -1,0 +1,2 @@
+baseline,ASRpolicy,refusal_rate,benign_correctness,N_harm,N_benign
+sanitize/validate-only (no synthesis loop),0.003,0.34,0.66,300,150

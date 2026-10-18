@@ -1,0 +1,6 @@
+Attack family,Seed prompts,Variants/seed,Rounds,Attempts/round,Total attempts
+jailbreak,200,1,1,200,200
+cyberllminstruct,200,1,1,200,200
+injection,200,1,1,200,200
+inthewild,200,1,1,200,200
+Overall,800,1,1,-,800

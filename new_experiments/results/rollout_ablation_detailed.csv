@@ -1,0 +1,121 @@
+patch_id,variant,ASR,benign_success,latency,regressions,rollbacks,bad_patches_shipped
+da039d4d,Immediate Deployment,0.87,0.99,2632.9587388038635,1,1,1
+e797d27a,Immediate Deployment,0.89,1.0,2751.1516404151917,1,1,1
+e61ba3b3,Immediate Deployment,0.94,1.0,2673.6293840408325,1,1,1
+97bd884b,Immediate Deployment,0.89,0.99,2585.663266181946,1,1,1
+baa0c399,Immediate Deployment,0.88,1.0,2670.7487082481384,1,1,1
+3127608b,Immediate Deployment,0.89,1.0,2680.491352081299,1,1,1
+fafa096b,Immediate Deployment,0.89,1.0,2562.984094619751,1,1,1
+bcec8536,Immediate Deployment,0.91,1.0,2686.5486788749695,1,1,1
+6dff8884,Immediate Deployment,0.9,0.99,2720.7737016677856,1,1,1
+1fd7ed37,Immediate Deployment,0.91,1.0,2661.594955921173,1,1,1
+c973c124,Immediate Deployment,0.9299999999999999,1.0,2705.3183007240295,1,1,1
+3509c5da,Immediate Deployment,0.88,1.0,2661.4994597434998,1,1,1
+9869c2f7,Immediate Deployment,0.91,1.0,2616.255466938019,1,1,1
+3801858c,Immediate Deployment,0.47,0.72,2767.2953605651855,1,1,1
+47963160,Immediate Deployment,0.87,1.0,2611.25834941864,1,1,1
+c16478f1,Immediate Deployment,0.88,1.0,2666.972885131836,1,1,1
+15bfbca1,Immediate Deployment,0.92,1.0,2717.76793718338,1,1,1
+cc36990d,Immediate Deployment,0.9,0.99,2726.696102619171,1,1,1
+d81774d3,Immediate Deployment,0.91,1.0,2628.1428170204163,1,1,1
+26782999,Immediate Deployment,0.92,1.0,2715.0304436683655,1,1,1
+1164e1df,Immediate Deployment,0.87,1.0,2628.206911087036,1,1,1
+2702a3aa,Immediate Deployment,0.89,1.0,2665.2612805366516,1,1,1
+b282d02e,Immediate Deployment,0.92,1.0,2686.552150249481,1,1,1
+21352399,Immediate Deployment,0.9,0.99,2689.7657084465027,1,1,1
+3f1d168e,Immediate Deployment,0.89,1.0,2675.7165122032166,1,1,1
+f99ee16c,Immediate Deployment,0.86,1.0,2612.953109741211,1,1,1
+471491bc,Immediate Deployment,0.9,1.0,2626.4429664611816,1,1,1
+09e85fa2,Immediate Deployment,0.91,1.0,2680.084755420685,1,1,1
+1ac7630e,Immediate Deployment,0.89,1.0,2705.0838375091553,1,1,1
+59fdab0a,Immediate Deployment,0.91,1.0,2655.353877544403,1,1,1
+da039d4d,Canary Deployment,1.0,1.0,2499.5328426361084,1,1,0
+e797d27a,Canary Deployment,1.0,1.0,2446.8098163604736,1,1,0
+e61ba3b3,Canary Deployment,1.0,1.0,2316.0946130752563,1,1,0
+97bd884b,Canary Deployment,1.0,1.0,2420.595407485962,1,1,0
+baa0c399,Canary Deployment,0.9,1.0,2730.464506149292,1,1,0
+3127608b,Canary Deployment,1.0,1.0,2472.365427017212,1,1,0
+fafa096b,Canary Deployment,1.0,1.0,2410.9029054641724,1,1,0
+bcec8536,Canary Deployment,1.0,1.0,2423.359513282776,1,1,0
+6dff8884,Canary Deployment,1.0,1.0,2610.060930252075,1,1,0
+1fd7ed37,Canary Deployment,1.0,1.0,2662.5017166137695,1,1,0
+c973c124,Canary Deployment,1.0,1.0,2630.0673246383667,1,1,0
+3509c5da,Canary Deployment,1.0,1.0,2398.5302925109863,1,1,0
+9869c2f7,Canary Deployment,0.9,1.0,2411.8123054504395,1,1,0
+3801858c,Canary Deployment,0.5,0.8,2291.54896736145,1,1,0
+47963160,Canary Deployment,1.0,1.0,2431.446886062622,1,1,0
+c16478f1,Canary Deployment,1.0,1.0,2634.6946477890015,1,1,0
+15bfbca1,Canary Deployment,1.0,1.0,2247.0695972442627,1,1,0
+cc36990d,Canary Deployment,1.0,1.0,2424.5280027389526,1,1,0
+d81774d3,Canary Deployment,1.0,1.0,2673.379683494568,1,1,0
+26782999,Canary Deployment,1.0,1.0,2632.287645339966,1,1,0
+1164e1df,Canary Deployment,1.0,1.0,2613.0286931991577,1,1,0
+2702a3aa,Canary Deployment,1.0,1.0,2500.4591703414917,1,1,0
+b282d02e,Canary Deployment,1.0,1.0,2429.1385173797607,1,1,0
+21352399,Canary Deployment,1.0,1.0,2505.7563304901123,1,1,0
+3f1d168e,Canary Deployment,1.0,1.0,2355.0288677215576,1,1,0
+f99ee16c,Canary Deployment,0.9,1.0,2354.0627002716064,1,1,0
+471491bc,Canary Deployment,1.0,1.0,2583.3343267440796,1,1,0
+09e85fa2,Canary Deployment,1.0,1.0,2343.3109045028687,1,1,0
+1ac7630e,Canary Deployment,1.0,1.0,2509.5356941223145,1,1,0
+59fdab0a,Canary Deployment,1.0,1.0,2429.240083694458,1,1,0
+da039d4d,Risk Scorer (Multi-Objective),,,,0,0,0
+e797d27a,Risk Scorer (Multi-Objective),,,,0,0,0
+e61ba3b3,Risk Scorer (Multi-Objective),,,,0,0,0
+97bd884b,Risk Scorer (Multi-Objective),,,,0,0,0
+baa0c399,Risk Scorer (Multi-Objective),,,,0,0,0
+3127608b,Risk Scorer (Multi-Objective),,,,0,0,0
+fafa096b,Risk Scorer (Multi-Objective),,,,0,0,0
+bcec8536,Risk Scorer (Multi-Objective),,,,0,0,0
+6dff8884,Risk Scorer (Multi-Objective),,,,0,0,0
+1fd7ed37,Risk Scorer (Multi-Objective),,,,0,0,0
+c973c124,Risk Scorer (Multi-Objective),,,,0,0,0
+3509c5da,Risk Scorer (Multi-Objective),,,,0,0,0
+9869c2f7,Risk Scorer (Multi-Objective),,,,0,0,0
+3801858c,Risk Scorer (Multi-Objective),,,,0,0,0
+47963160,Risk Scorer (Multi-Objective),,,,0,0,0
+c16478f1,Risk Scorer (Multi-Objective),,,,0,0,0
+15bfbca1,Risk Scorer (Multi-Objective),,,,0,0,0
+cc36990d,Risk Scorer (Multi-Objective),,,,0,0,0
+d81774d3,Risk Scorer (Multi-Objective),,,,0,0,0
+26782999,Risk Scorer (Multi-Objective),,,,0,0,0
+1164e1df,Risk Scorer (Multi-Objective),,,,0,0,0
+2702a3aa,Risk Scorer (Multi-Objective),,,,0,0,0
+b282d02e,Risk Scorer (Multi-Objective),,,,0,0,0
+21352399,Risk Scorer (Multi-Objective),,,,0,0,0
+3f1d168e,Risk Scorer (Multi-Objective),,,,0,0,0
+f99ee16c,Risk Scorer (Multi-Objective),,,,0,0,0
+471491bc,Risk Scorer (Multi-Objective),,,,0,0,0
+09e85fa2,Risk Scorer (Multi-Objective),,,,0,0,0
+1ac7630e,Risk Scorer (Multi-Objective),,,,0,0,0
+59fdab0a,Risk Scorer (Multi-Objective),,,,0,0,0
+da039d4d,Risk Scorer (Safety Only),,,,0,0,0
+e797d27a,Risk Scorer (Safety Only),,,,0,0,0
+e61ba3b3,Risk Scorer (Safety Only),,,,0,0,0
+97bd884b,Risk Scorer (Safety Only),,,,0,0,0
+baa0c399,Risk Scorer (Safety Only),,,,0,0,0
+3127608b,Risk Scorer (Safety Only),,,,0,0,0
+fafa096b,Risk Scorer (Safety Only),,,,0,0,0
+bcec8536,Risk Scorer (Safety Only),,,,0,0,0
+6dff8884,Risk Scorer (Safety Only),,,,0,0,0
+1fd7ed37,Risk Scorer (Safety Only),,,,0,0,0
+c973c124,Risk Scorer (Safety Only),,,,0,0,0
+3509c5da,Risk Scorer (Safety Only),,,,0,0,0
+9869c2f7,Risk Scorer (Safety Only),,,,0,0,0
+3801858c,Risk Scorer (Safety Only),,,,0,0,0
+47963160,Risk Scorer (Safety Only),,,,0,0,0
+c16478f1,Risk Scorer (Safety Only),,,,0,0,0
+15bfbca1,Risk Scorer (Safety Only),,,,0,0,0
+cc36990d,Risk Scorer (Safety Only),,,,0,0,0
+d81774d3,Risk Scorer (Safety Only),,,,0,0,0
+26782999,Risk Scorer (Safety Only),,,,0,0,0
+1164e1df,Risk Scorer (Safety Only),,,,0,0,0
+2702a3aa,Risk Scorer (Safety Only),,,,0,0,0
+b282d02e,Risk Scorer (Safety Only),,,,0,0,0
+21352399,Risk Scorer (Safety Only),,,,0,0,0
+3f1d168e,Risk Scorer (Safety Only),,,,0,0,0
+f99ee16c,Risk Scorer (Safety Only),,,,0,0,0
+471491bc,Risk Scorer (Safety Only),,,,0,0,0
+09e85fa2,Risk Scorer (Safety Only),,,,0,0,0
+1ac7630e,Risk Scorer (Safety Only),,,,0,0,0
+59fdab0a,Risk Scorer (Safety Only),,,,0,0,0

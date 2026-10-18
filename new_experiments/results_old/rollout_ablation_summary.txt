@@ -1,0 +1,4 @@
+RQ4: Richer Ablations - Rollout / Canary & Risk Scorer
+We compare immediate deployment (deploy any patch passing PatchEval) against full canary pipeline and risk scorer variants.
+Immediate deployment yields utility=0.000, ASR=0.181, regressions=0. Canary deployment: utility=0.000, ASR=0.181, regressions=4. Risk scorer (safety only): ASR=0.181, regressions=4.
+These results show that deployment policy and risk scorer design significantly affect safety, utility, and reliability trade-offs. See rollout_ablation.csv for details.

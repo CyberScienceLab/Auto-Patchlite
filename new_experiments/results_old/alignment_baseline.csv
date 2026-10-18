@@ -1,0 +1,4 @@
+family,method,ASR,note
+JailbreakBench,none,0.76,ASR computed for none
+JailbreakBench,alignment,0.72,ASR computed for alignment
+JailbreakBench,autopatch,0.19999999999999996,ASR computed for autopatch

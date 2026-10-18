@@ -1,0 +1,3 @@
+Variant,ASR,Vulnerable_Testcases,Safe_Testcases,Total_Testcases,Blocked
+Before AutoPatch-Lite,0.300,6,14,20,N/A
+After AutoPatch-Lite (Top 50),0.000,0,20,20,6

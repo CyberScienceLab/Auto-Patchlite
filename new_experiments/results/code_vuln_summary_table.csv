@@ -1,0 +1,11 @@
+Metric,Value
+ASR Before,0.300
+ASR After,0.000
+ASR Reduction,0.300
+ASR Reduction %,100.0%
+Vulnerable Before,6
+Vulnerable After,0
+Safe Before,14
+Safe After,20
+Total Testcases,20
+Patches Applied,50

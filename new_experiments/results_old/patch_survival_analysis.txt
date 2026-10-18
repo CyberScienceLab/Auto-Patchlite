@@ -1,0 +1,9 @@
+Patch Survival Analysis (RQ3 – Adaptivity)
+
+Survival variable: For each patch, time = number of adaptive attack rounds or adversarial queries until first successful bypass (right-censored if not bypassed).
+
+Survival curves: Fraction of patches not yet bypassed vs. rounds. Compared: Full AutoPatch-Lite vs. weakened variant (no RL refinement).
+
+Statistical comparison: Log-rank test used to compare survival distributions.
+
+Interpretation: AutoPatch-Lite shows longer patch survival under adaptive attacks, indicating greater robustness. See patch_survival_curve.csv and patch_survival_curve.png for details.

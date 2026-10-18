@@ -1,0 +1,9 @@
+{
+  "dataset": "JailBreakV-28k-hidden",
+  "patch_id": "3801858c",
+  "patch_type": "regex",
+  "asr_before": 0.44,
+  "asr_after": 0.0,
+  "ttm_before": 1.8015358877182006,
+  "ttm_after": 0.049939203262329104
+}

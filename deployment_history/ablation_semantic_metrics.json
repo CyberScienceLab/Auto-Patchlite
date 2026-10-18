@@ -1,0 +1,7 @@
+{
+  "ASR": 0.297,
+  "latency": 14.614629,
+  "N": 1000,
+  "defense_mode": "autopatch_lite",
+  "ablation": "semantic"
+}

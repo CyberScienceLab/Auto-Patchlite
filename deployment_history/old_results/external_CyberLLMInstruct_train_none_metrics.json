@@ -1,0 +1,11 @@
+{
+  "safety_pass_rate": 0.33,
+  "util_loss": 0.0,
+  "fp_rate": 0.0,
+  "latency": 4.40106,
+  "N": 100,
+  "defense_mode": "none",
+  "dataset": "CyberLLMInstruct",
+  "split": "train",
+  "config": null
+}

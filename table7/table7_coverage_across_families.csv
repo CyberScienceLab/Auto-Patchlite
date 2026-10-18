@@ -1,0 +1,6 @@
+Attack Family,N (#Attempts),# Mitigated,Coverage (%),Residual ASR (%)
+Jailbreak / Prompt Suite,100,80,80.0,20.0
+Indirect Injection (RAG),370724,355687,95.94388278072097,4.056117219279031
+Malicious Tool Use (OWASP-inspired),4656,4653,99.93556701030928,0.0644329896907152
+Retrieval Attack Data (hidden prompts),28000,27951,99.825,0.17499999999999716
+Code Vulnerability Scenarios (ManyBugs/Juliet),4656,4653,99.93556701030928,0.0644329896907152

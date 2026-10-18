@@ -1,0 +1,16 @@
+Scenario,N,Mode,Retention%
+General QA & Dialogue,100,none,100.0
+General QA & Dialogue,100,promptguard,90.0
+General QA & Dialogue,100,autopatch_lite,31.0
+RAG Knowledge Queries,0,none,0.0
+RAG Knowledge Queries,0,promptguard,0.0
+RAG Knowledge Queries,0,autopatch_lite,0.0
+Traffic Replays,0,none,0.0
+Traffic Replays,0,promptguard,0.0
+Traffic Replays,0,autopatch_lite,0.0
+Malicious Tool Use,100,none,100.0
+Malicious Tool Use,100,promptguard,100.0
+Malicious Tool Use,100,autopatch_lite,100.0
+Overall,200,none,100.0
+Overall,200,promptguard,95.0
+Overall,200,autopatch_lite,65.5

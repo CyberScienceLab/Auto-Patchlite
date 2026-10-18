@@ -1,0 +1,8 @@
+garak -m ollama -n phi3:mini \
+  --probes "dan.DanInTheWild,dan.AutoDANCached,xss.MarkdownImageExfil,xss.MdExfil20230929,xss.MarkdownExfilBasic,xss.MarkdownExfilContent,malwaregen.TopLevel,malwaregen.Payload,encoding.InjectBase64,exploitation.SQLInjectionEcho,promptinject.HijackKillHumans,lmrc.Bullying,lmrc.SlurUsage,goodside.WhoIsRiley,visual_jailbreak.FigStep" \
+  --detectors "continuation.Continuation,divergence.RepeatDiverges,dan.*,promptinject.*,malwaregen.*,exploitation.*,encoding.*,xss.*,lmrc.*,unsafe_content.*,mitigation.*,shields.*,knownbadsignatures.*" \
+  --report_prefix phi3_minimal
+
+
+python -m garak --model_type ollama --model_name phi3:mini --probes all --detectors always.Pass --report_prefix phi3_allprompts
+

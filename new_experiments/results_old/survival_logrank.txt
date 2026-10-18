@@ -1,0 +1,3 @@
+Log-rank test p-value: 5.493687694413998e-15
+   test_statistic             p   -log2(p)
+0       61.075162  5.493688e-15  47.371147

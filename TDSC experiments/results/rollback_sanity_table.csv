@@ -1,0 +1,7 @@
+case_id,patch_id,triggered_outcome,failed_canary_fraction,asr_at_failure,rollback_restore_within_one_interval
+1,e797d27a,rollback-stage1,0.1,NA,1
+2,e61ba3b3,rollback-stage1,0.1,NA,1
+3,97bd884b,rollback-stage1,0.1,NA,1
+4,baa0c399,rollback-stage1,0.1,NA,1
+5,0cd819e5,rollback-stage1,0.1,NA,1
+6,a579cc6f,rollback-stage1,0.1,NA,1

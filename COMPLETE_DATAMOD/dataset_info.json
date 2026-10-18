@@ -1,0 +1,160 @@
+{
+  "citation": "",
+  "description": "",
+  "features": {
+    "prompt": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "label": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "source": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "goal": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "target": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "metadata": {
+      "Behavior": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "Category": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "Index": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "Source": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "chosen": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "dataset": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "gpt4_cf": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "harmbench_cf": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "human1": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "human2": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "human3": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "llama3_cf": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "llamaguard2_cf": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "rejected": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    "difficulty": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "prompt_embedding": {
+      "feature": {
+        "dtype": "float64",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "target_response_embedding": {
+      "feature": {
+        "dtype": "float64",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "prompt_contains_profanity": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "target_contains_refusal": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "target_response_length": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "prompt_system_role_token_hit": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "target_char_entropy": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "prompt_jailbreak_likelihood": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "policy_violation_logit": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "wrapper_flagged": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "simulated_latency_ms": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "target_contains_policy_violation": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "simulated_escalate_output": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "simulated_ask_output": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "simulated_rewrite_output": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "rewrite_preserves_intent": {
+      "dtype": "int64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": ""
+}

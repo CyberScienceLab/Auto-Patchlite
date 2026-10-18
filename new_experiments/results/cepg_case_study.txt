@@ -1,0 +1,11 @@
+
+CEPG Case Study
+
+Patch ID: e797d27a
+
+This patch was flagged by CEPG due to:
+- High anomaly score (computed from patch risk score, neighborhood incident nodes, and deployment failure indicators)
+- Anomalous graph structure (presence of incident edges or deployment failures in neighborhood)
+
+By flagging this patch before full deployment, CEPG prevented a regression that would have occurred without screening.
+The patch was caught during canary phase and rolled back, demonstrating the value of graph-based anomaly detection.

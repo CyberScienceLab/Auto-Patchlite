@@ -1,0 +1,11 @@
+{
+  "safety_pass_rate": 0.25,
+  "util_loss": 0.0,
+  "fp_rate": 0.0,
+  "latency": 4.15403,
+  "N": 100,
+  "defense_mode": "promptguard",
+  "dataset": "InTheWild",
+  "split": "train",
+  "config": "regular_2023_12_25"
+}

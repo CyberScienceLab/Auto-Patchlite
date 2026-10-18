@@ -1,0 +1,8 @@
+
+CEPG Experiment Summary
+
+Comparison Results:
+- With CEPG: 0 regressions, 5 bad patches caught, ASR=0.000, Utility=0.000
+- Without CEPG: 5 regressions, 0 bad patches caught, ASR=0.170, Utility=0.000
+
+CEPG successfully flags risky patches before full deployment, reducing regressions and maintaining safety.

@@ -1,0 +1,2 @@
+patch_family,autopatch_refusal_rate,non_deny_refusal_rate,autopatch_ASRpolicy,non_deny_ASRpolicy,oracle_defined,note
+retrieval sanitization + schema validation,0.88,0.34,0.0,0.003,1,Non-deny family lowers refusal while retaining low oracle-defined ASR.

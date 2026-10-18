@@ -1,0 +1,9 @@
+{
+  "dataset": "JailBreakV-28k-redteam",
+  "patch_id": "e797d27a",
+  "patch_type": "semantic",
+  "asr_before": 0.47,
+  "asr_after": 0.43,
+  "ttm_before": 2.178904023170471,
+  "ttm_after": 2.00522349357605
+}
