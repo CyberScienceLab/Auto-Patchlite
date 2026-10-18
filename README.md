@@ -20,7 +20,7 @@ The evaluation reports policy-violation rates under a fixed operational oracle, 
 | `runpatches.py` | Apply selected patches using staged rollout, monitoring, and rollback. |
 | `envtest.py`, `llm_inference.py` | RL environment and LLM inference support. |
 | `eval_external_datasets.py`, `aggregate_eval_tables.py` | Benchmark evaluation and result aggregation. |
-| `TDSC experiments/`, `new_experiments/` | Additional evaluation and analysis scripts. |
+| `new_experiments/` | Additional evaluation and analysis scripts. |
 | `deployment_history/`, `table_results/`, `table6/`, `table7/` | Retained evaluation and deployment records. |
 | `final_artifacts/` | Selected experiment artifacts and related documentation. |
 | `COMPLETE_DATAMOD/`, `DEMO.zip`, `DEMO.onnx` | Dataset and saved policy checkpoints used by the pipeline. |
