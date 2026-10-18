@@ -1,4 +1,4 @@
-# TDSC experiments
+# experiments
 
 This folder adds reviewer-facing stress tests and tradeoff artifacts using existing AutoPatch-Lite logs.
 
